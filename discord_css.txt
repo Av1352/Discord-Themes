@@ -1,0 +1,55 @@
+@import url("https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/base.css");
+
+/* User Background */
+@import url('https://cdn.vast.vc/resources/userBG/userProfileBGs.css');
+@import url('https://cdn.vast.vc/resources/userBG/userProfileModals.css');
+@import url('https://cdn.vast.vc/resources/userTAG/userTags.css');
+
+/* Old Windows titlebar - remove this @import if you wish to use default titlebar */
+@import url("https://gibbu.github.io/BetterDiscord-Themes/addons/windows-titlebar.css");
+
+:root {
+  /* Image source */
+  --background-image: url('https://github.com/Av1352/Discord-Themes/blob/main/3053381.jpg?raw=true');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+    
+  /* Home image variables */
+  --home-button-image: url('https://github.com/Av1352/Discord-Themes/blob/main/2021-04-10.png?raw=true');
+  --home-button-size: cover;
+  --home-button-position: center;
+
+  /* Popout & Modal variables */
+  --popout-modal-image: var(--background-image); 
+  --popout-modal-blur: 5px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+
+  /* Brightness variables */
+  --serverlist-brightness: 0.6;
+  --left-brightness: 0.6;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.75;
+
+  /* Gradient variables */
+  --gradient-primary: 126,156,241;
+  --gradient-secondary: 80,0,185;
+  --gradient-direction: -45deg;
+
+  /* Tint variables */
+  --tint-colour: 229,20,90;
+  --tint-brightness: 0;
+
+  /* Other variables */
+  --scrollbar-colour: var(--gradient);
+  --link-colour: #878FE2;
+  --show-gift-gif-buttons: none;
+    
+  --font: 'Whitney';
+
+  /* Do not touch */
+  --update-notice-1: none;
+  }
+/*
